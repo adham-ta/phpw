@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Simple chat</title>
+</head>
+<body>
+
+<h1>Simple chat</h1>
+
+<ul id="messages">
+    <li>loading…</li>
+</ul>
+
+<form action="<?= htmlentities($_SERVER['PHP_SELF'], ENT_COMPAT, 'UTF-8'); ?>" method="post">
+    <p>
+        <input type="text" name="content" id="content" />
+    </p>
+    <p>
+        <label>
+            Name:
+            <input type="text" name="name" id="name" value="Anonymous" />
+        </label>
+        <button type="submit">Send</button>
+    </p>
+</form>
+
+</body>
+  </html>
