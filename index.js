@@ -1,11 +1,12 @@
 var firebaseConfig = {
-  apiKey: "xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx",
-  authDomain: "xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx",
-  databaseURL: "xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx",
-  projectId: "xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx",
-  storageBucket: "xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx",
-  messagingSenderId: "xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx",
-  appId: "xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx",
+  apiKey: "AIzaSyBVwqd2cbwPtEqQyY0kvTs-9_0whZzDxAQ",
+  authDomain: "chat-bd059.firebaseapp.com",
+  databaseURL: "https://chat-bd059-default-rtdb.firebaseio.com",
+  projectId: "chat-bd059",
+  storageBucket: "chat-bd059.appspot.com",
+  messagingSenderId: "471746540933",
+  appId: "1:471746540933:web:3067c6783deb24ef4b00ec",
+  measurementId: "G-GQPEDW7XWW"
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -47,3 +48,15 @@ fetchChat.on("child_added", function (snapshot) {
   // append the message on the page
   document.getElementById("messages").innerHTML += message;
 });
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBVwqd2cbwPtEqQyY0kvTs-9_0whZzDxAQ",
+  authDomain: "chat-bd059.firebaseapp.com",
+  databaseURL: "https://chat-bd059-default-rtdb.firebaseio.com",
+  projectId: "chat-bd059",
+  storageBucket: "chat-bd059.appspot.com",
+  messagingSenderId: "471746540933",
+  appId: "1:471746540933:web:3067c6783deb24ef4b00ec",
+  measurementId: "G-GQPEDW7XWW"
+};
